@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythonapp
-        image: myacrrepo4747.azurecr.io/teamgrace47/pythondockerrepo:7
+        image: myacrrepo4747.azurecr.io/teamgrace47/pythondockerrepo:latest
         ports:
         - containerPort: 5000
 # service type loadbalancer       
